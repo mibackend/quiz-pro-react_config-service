@@ -1,0 +1,9 @@
+spring:
+  profiles: dev
+
+custom:
+  property: dev-value
+datasource:
+  url: jdbc:mysql://localhost:3306/dev_db
+  username: dev_user
+  password: dev_password
