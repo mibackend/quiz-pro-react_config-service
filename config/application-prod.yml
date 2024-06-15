@@ -1,8 +1,11 @@
 spring:
-  profiles: prod
+  config:
+    activate:
+      on-profile: prod
 logging:
   level:
     root: ERROR
+
 management:
   endpoints:
     web:
