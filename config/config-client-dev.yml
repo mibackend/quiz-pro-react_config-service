@@ -1,5 +1,11 @@
 spring:
-  profiles: dev
+  config:
+    activate:
+      on-profile: dev
+logging:
+  level:
+    root: DEBUG
+
 
 custom:
   property: dev-value
