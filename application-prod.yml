@@ -1,0 +1,10 @@
+spring:
+  profiles: prod
+logging:
+  level:
+    root: ERROR
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
